@@ -1,6 +1,6 @@
 /* Clock */
 
-var countDownDate = new Date("Aug 6, 2017 12:00:00").getTime();
+var countDownDate = new Date("Aug 6, 2017 22:00:00").getTime();
 var x = setInterval(function() {
 var now = new Date().getTime();
 var distance = countDownDate - now;
@@ -19,10 +19,20 @@ document.getElementById("demo3").innerHTML = seconds + "s "
 }, 1000);
 
 /* Wrapper */
+/*
 $(window).on('load', function(){
-    $("#wrapper").fadeOut(500, function() {
+    $("#wrapper").fadeOut(250, function() {
         $(".preload").fadeOut(2000, function() {
             $(".content").fadeIn(1000);
         });
     });
+});
+*/
+$(window).on('load', function(){
+    $("#wrapper").fadeOut(250, function() {
+            setTimeout(function(){
+                $(".content").fadeIn(1000);
+            }, 1000);
+        });
+
 });
