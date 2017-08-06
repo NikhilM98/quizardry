@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Thomso'17 - A Magical Fantasia</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="icon" href="../beta/img/logo_favicon.png" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="css/hexagons.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/hexagons.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<link rel="stylesheet" type="text/css" href="css/edits.css" />
+<link rel="stylesheet" type="text/css" href="css/earlier.css" />
+<script src="js/clock.js"> </script>
+</head>
+<body class="dhinchackBody">
+  <div class="preload">
+      <img src="img/2.jpg"  style="background-size: cover;" />
+    </div>
+    <div class="content">
+       <div class="header fade-scroll" id="head">
+    <div class="iitR">
+        </div>
+        <div class="ghanta">
+            <div class="ghadi" id="demo"></div>
+            <div class="ghadi" id="demo1"></div>
+            <div class="ghadi" id="demo2"></div>
+            <div class="ghadi" id="demo3"></div>
+        </div>
+        <div class="butt">
+        <a class="buttonRestyled" href="#abc">Instructions</a>
+        <a class="buttonRestyled" href="#abc">Play Now</a>
+
+        </div>
+    
+</div>
+<div id="abc" class="hutiapa">
+<div class="imageInst"><img id="logo" src="img/icon.png" style="width: 100px; height: 100px;"><img src="https://fontmeme.com/permalink/170804/6c336068057b66111cb7175a12603022.png" alt="Instructions"></div>
+<div class="myInstructions">1. The link of Quiz will be posted on this page at 10:00pm pm every Saturday and Sunday for next 8 weeks.<br>
+2. As soon as you click on the link the quiz will start. You must enter your correct name, email id, college, branch and year. It may just take 1 minute. Incorrect details may lead to disqualification.<br>
+3. Click on continue button and it will be followed by 35 questions of the given topic. The time limit is 10 minutes.<br>
+4. Each question will have only 1 answer.<br>
+5. Each question will carry different marks depending on the level of difficulty. The marks of each question would be mentioned. There is no negative marking.<br>
+
+6. Your marks will be sent to you within 5 minutes after you have completed the quiz with your responses checked in your email id.<br>
+7. Each week winner will be declared on official Thomso Page.<br>
+8. You have to submit the quiz by yourself.<br>
+9. Late submission may lead to rejection.<br>
+10. In case of same marks, the person submitting in lesser time will be considered better than the other.<br>
+11. Link will be disabled after 10 minutes so make sure you have submitted your quiz on time.
+</div>
+
+
+</div>
+<footer class="asliFooter">
+        	<div class="container myFooter" id="footer">
+            	<div class="row">
+                	<div class="col-sm-4">
+						<h4>Address</h4>
+						<p>THOMSO Office<br />
+						Multi Activity Centre<br />
+						Indian Institute of Technology Roorkee<br />
+						Roorkee - 247667</p>
+						<br />
+					</div>
+					<div class="col-sm-3">
+						<h4>Follow Us</h4>
+						<a href="https://www.facebook.com/thomsoiitroorkee/"><span class="hb hb-xs spin"><i class="fa fa-facebook"></i></span></a>
+                        <a href="https://twitter.com/thomso_iitr?lang=en"> <span class="hb hb-xs spin"><i class="fa fa-twitter"></i></span></a>
+                        <a href="https://www.youtube.com/user/iitrthomso"> <span class="hb hb-xs spin"><i class="fa fa-youtube"></i></span></a>
+						<br />
+					</div>
+					<div class="col-sm-5">
+						<h4>Contact</h4>
+						<div class="row">
+							<div class="col-md-6">
+                                <p>Tushar<br />
+                                +91-8755517935<br />
+                                tushar.thomso@gmail.com</p>
+							</div>
+							<div class="col-md-6">
+                                <p>Ankit<br />
+                                +91-8709490696<br />
+                                ankitsingh.thomso@gmail.com</p>
+							</div>
+						</div>
+					</div>
+            	</div>
+        	</div>
+    	</footer>
+    </div>
+</body>
+</html>
+<script>
+  $(function() {
+    $(".preload").fadeOut(2000, function() {
+      $(".content").fadeIn(1000);
+    });
+  });
+</script>  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script type="text/javascript">
+            
+            $(function() {
+                
+                var documentEl = $(document),
+                    fadeElem = $('.fade-scroll');
+                
+                
+                documentEl.on('scroll', function() {
+                    var currScrollPos = documentEl.scrollTop();
+                    
+                    fadeElem.each(function() {
+                        var $this = $(this),
+                            elemOffsetTop = $this.offset().top;
+                        if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 - (currScrollPos-elemOffsetTop)/1000);
+                    }); 
+                });
+                
+            });
+        
+        </script>
+
+<script src="js/hexagons.min.js"></script>
+
+
+<script>

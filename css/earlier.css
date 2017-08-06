@@ -1,0 +1,27 @@
+.preload {
+  margin:0;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-right: -50%;
+  transform:translate(-50%, -50%);
+
+}
+
+.content {
+  display:none;
+}
+
+.fbg{
+  background-image: url(a.gif);
+    }
+
+.header{
+    background: url("../img/banner.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
