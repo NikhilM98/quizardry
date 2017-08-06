@@ -1,9 +1,10 @@
 .hutiapa{
     background-image: url('../img/u.jpg');
-    height: 70vh;
+    height: 80vh;
     padding: 30px 15px 30px 15px;
-    overflow: hidden;
+    overflow: scroll;
     z-index: 100;
+    overflow-x: hidden;
 }
 .imageInst{
     padding-bottom: 15px;
