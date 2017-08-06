@@ -14,7 +14,11 @@ document.getElementById("demo2").innerHTML = minutes + "m "
 document.getElementById("demo3").innerHTML = seconds + "s "
     if (distance < 0) {
         clearInterval(x);
-        document.getElementsByClassName("demo").innerHTML = "EXPIRED";
+        document.getElementById("demo").style.display="none";
+        document.getElementById("demo1").style.display="none";
+        document.getElementById("demo2").style.display="none";
+        document.getElementById("demo3").style.display="none";
+        document.getElementById("play").className = 'buttonRestyled';
     }
 }, 1000);
 

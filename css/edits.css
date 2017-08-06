@@ -5,6 +5,7 @@
 
 .hutiapa{
     background-image: url('../img/info2.jpg');
+    background-color: black;
     height: 80vh;
     padding: 30px 15px 30px 15px;
     overflow: scroll;
@@ -129,6 +130,9 @@ display: none;
     }
     .myInstructions{
         font-size: 1.42em;
+    }
+    .ghanta{
+        top: 45vh;
     }
 }
 @media (max-width: 600px){
